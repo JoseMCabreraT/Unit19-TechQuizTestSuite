@@ -2,6 +2,9 @@
 
 ## Description
 
+I succesfully enhanced a fully functioning app by adding Cypress for both component and end-to-end tests. 
+Cypress was installed as a dev dependency. Also, a component test was created for the quiz component. And finally, an end-to-end test was created for the quiz component.
+
 
 Walkthrough video url:
 
