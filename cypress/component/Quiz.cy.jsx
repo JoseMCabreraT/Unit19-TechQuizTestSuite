@@ -5,22 +5,39 @@ import { getQuestions } from '../../src/services/questionApi';
 // Mock questions data
 const mockQuestions = [
   {
-    question: 'What is 2 + 2?',
+    question: 'What is the output of print(2 + 3)?',
     answers: [
-      { text: '3', isCorrect: false },
-      { text: '4', isCorrect: true },
-      { text: '5', isCorrect: false },
+      { text: '23', isCorrect: false },
+      { text: '5', isCorrect: true },
+      { text: 'Error', isCorrect: false },
     ],
   },
   {
-    question: 'What is the capital of France?',
+    question: 'Which of the following is used to define a function in Python?',
     answers: [
-      { text: 'Berlin', isCorrect: false },
-      { text: 'Paris', isCorrect: true },
-      { text: 'Madrid', isCorrect: false },
+      { text: 'def', isCorrect: true },
+      { text: 'function', isCorrect: false },
+      { text: 'define', isCorrect: false },
+    ],
+  },
+  {
+    question: 'What data type is used to store a sequence of characters in Python?',
+    answers: [
+      { text: 'List', isCorrect: false },
+      { text: 'String', isCorrect: true },
+      { text: 'Integer', isCorrect: false },
+    ],
+  },
+  {
+    question: 'What is the correct syntax to create a class in Python?',
+    answers: [
+      { text: 'class MyClass:', isCorrect: true },
+      { text: 'create MyClass:', isCorrect: false },
+      { text: 'function MyClass:', isCorrect: false },
     ],
   },
 ];
+
 
 describe('Quiz Component', () => {
   beforeEach(() => {
