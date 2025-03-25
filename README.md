@@ -6,7 +6,7 @@ I succesfully enhanced a fully functioning app by adding Cypress for both compon
 Cypress was installed as a dev dependency. Also, a component test was created for the quiz component. And finally, an end-to-end test was created for the quiz component.
 
 
-Walkthrough video url:
+Walkthrough video url: https://drive.google.com/file/d/1lDw6PniU_SEQfFm4tzJ6oByk2N0SHW-p/view?usp=sharing
 
 ## Table of Contents
 
